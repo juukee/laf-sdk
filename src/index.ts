@@ -1,3 +1,2 @@
-import Laf from './platform/laf'
-
-export default Laf
+export * from './laf';
+export * from './types';
