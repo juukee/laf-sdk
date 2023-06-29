@@ -66,7 +66,7 @@ export const getCurrentTimestamp = (): number => {
   // 获取当前时间的毫秒数
   const currentTimeInMilliseconds = new Date().getTime();
   // 将毫秒数转换为字符串，并截取前10个字符，得到10位时间戳
-  const timestampString = currentTimeInMilliseconds.toString().substr(0, 10);
+  const timestampString = currentTimeInMilliseconds.toString().substring(0, 10);
   // 将时间戳字符串转换为数字，并返回
   return Number(timestampString);
 };

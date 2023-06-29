@@ -16,6 +16,8 @@
     "lint"
   ],
   "devDependencies": {
+    "@dcloudio/types": "^3.3.3",
+    "@mini-types/alipay": "^3.0.8",
     "@rollup/plugin-commonjs": "^25.0.2",
     "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.1.0",
@@ -24,14 +26,16 @@
     "@types/node": "^20.3.1",
     "eslint": "^8.43.0",
     "rollup": "^3.25.1",
-    "tslib": "^2.5.3"
+    "tslib": "^2.5.3",
+    "typescript": "^5.1.6"
   },
   "license": "ISC",
   "engines": {
     "node": ">=12.0.0"
   },
   "dependencies": {
+    "@lafjs/cloud": "^1.0.0-beta.7",
     "axios": "^1.4.0",
-    "loglevel": "^1.8.1"
+    "log4js": "^6.9.1"
   }
 }
